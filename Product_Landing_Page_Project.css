@@ -4,7 +4,8 @@
   width: 100%;
   background-color: black;
   color: yellow;
-
+  justify-content: space-between;
+    align-items: center;
 }
 
 #header-img {
@@ -15,10 +16,23 @@
 
 
 #nav-bar {
-float: right;
-margin: 10;
+  width: 50%;
+   height: 60px;
+   margin-right: 20px;
 }
 
+#nav-bar ul{
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+   height: 60px;
+   margin-left: 200px;
+}
+
+#vid {
+  padding-top: 200px;
+}
   h1 {
   color: red;
 }
