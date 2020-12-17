@@ -1,8 +1,24 @@
-h1 {
-  color: red;
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: yellow;
+
 }
 
-iframe {
-  width: 30%;
-  height: 30%;
+#header-img {
+  width: 150px;
+  height: 120px;
+  padding-left: 30px;
+}
+
+
+#nav-bar {
+float: right;
+margin: 10;
+}
+
+  h1 {
+  color: red;
 }
