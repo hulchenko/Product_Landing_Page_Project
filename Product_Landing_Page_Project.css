@@ -1,38 +1,105 @@
-#header {
+
+  #header {
   position: fixed;
+  display: flex;
   top: 0;
   width: 100%;
-  background-color: black;
-  color: yellow;
+  background-color: white;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
 #header-img {
-  width: 150px;
+  width: 180px;
   height: 120px;
   padding-left: 30px;
 }
 
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+color: grey;
+}
+
+#bio {
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+
+}
 
 #nav-bar {
-  width: 50%;
+  width: 40%;
    height: 60px;
-   margin-right: 20px;
+   margin-right: 50px;
 }
 
 #nav-bar ul{
   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   list-style-type: none;
-   height: 60px;
-   margin-left: 200px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  margin-top: 10px;
 }
 
+
 #vid {
+  text-align: center;
+}
+
+#gallery {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.frenchie {
+  width: 47%;
+  padding: 3px;
+}
+
+h1 {
   padding-top: 200px;
+  color: black;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90px;
 }
-  h1 {
-  color: red;
+
+h2 {
+color: black;
+font-family: 'Luckiest Guy', cursive;
+font-size: 60px;
+text-align: center;
+margin-top: 100px;
 }
+
+p {
+  margin-top: -40px;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Special Elite', cursive;
+}
+
+.button {
+  background-color: white;
+  margin: 20px;
+}
+
+#arrowtop {
+  font-size: 100px;
+  font-style: normal;
+}
+
+@media (max-width: 500px) {
+  #header {
+    flex-direction: column;
+  }
+}
+  #gallery {
+    width: 100%;
+  }
